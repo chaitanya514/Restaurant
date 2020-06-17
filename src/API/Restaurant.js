@@ -2,7 +2,7 @@ import axios from 'axios';
 
 const api = 'http://opentable.herokuapp.com/api';
 
-export const searchRestaurent = async (query) => {
+export const searchRestaurant = async (query) => {
   try {
     const url = api + '/restaurants';
     const response = await axios.get(url, {
