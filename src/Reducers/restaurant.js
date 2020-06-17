@@ -2,7 +2,7 @@ import * as actionType from '../Actions/restaurant';
 
 
 const initialState = {
-    restaurant: {}
+    restaurant: []
 }
 
 const restaurantReducer = (state = initialState, action) => {

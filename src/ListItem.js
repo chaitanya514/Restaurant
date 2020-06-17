@@ -5,6 +5,7 @@ const ListItem = (props) => {
         <div key={restaurant.id}>
             <h3>{restaurant.name}</h3>
             <p>{restaurant.address}</p>
+            <p>{restaurant.area}</p>
 
             <p>${restaurant.price}</p>
         </div>
